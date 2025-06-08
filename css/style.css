@@ -1318,3 +1318,13 @@ p {
   color: var(--color-accent);
   text-decoration: underline;
 }
+
+.modal-agreement {
+  font-size: 12px;
+  line-height: 1.17;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: nowrap;
+}
