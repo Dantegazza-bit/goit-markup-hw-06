@@ -1160,3 +1160,122 @@ p {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px rgba(0, 0, 0, 0.12),
     1px 4px 6px rgba(0, 0, 0, 0.2);
 }
+
+.modal-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  cursor: pointer;
+  transition: border-color 250ms ease;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  border-color: var(--color-accent);
+}
+
+.modal-close-icon {
+  fill: var(--color-dark);
+}
+
+.modal-title {
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-dark);
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: var(--color-text);
+}
+
+.modal-input-wrapper {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  padding-left: 38px;
+  border: 1px solid rgba(46, 47, 66, 0.2);
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--color-dark);
+  transition: border-color 250ms ease;
+}
+
+.modal-input:focus {
+  border-color: var(--color-accent);
+  outline: none;
+}
+
+.modal-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  fill: var(--color-dark);
+  pointer-events: none;
+}
+
+.modal-textarea {
+  height: 120px;
+  resize: none;
+  padding: 8px 16px;
+  font-family: inherit;
+}
+
+.modal-agreement {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  color: var(--color-text);
+}
+
+.modal-link {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.modal-submit-btn {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+  background-color: var(--color-accent);
+}
