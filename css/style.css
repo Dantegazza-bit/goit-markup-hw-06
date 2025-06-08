@@ -1128,3 +1128,35 @@ p {
   cursor: pointer;
   font-weight: 500;
 }
+
+/* ======= Modal Styles ======= */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(46, 47, 66, 0.4);
+  z-index: 999;
+  transition: opacity 250ms ease, visibility 250ms ease;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 408px;
+  min-height: 584px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 72px 24px 24px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 4px 4px rgba(0, 0, 0, 0.12),
+    1px 4px 6px rgba(0, 0, 0, 0.2);
+}
