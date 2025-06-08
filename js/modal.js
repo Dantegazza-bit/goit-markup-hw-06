@@ -2,21 +2,13 @@
   const refs = {
     openModalBtn: document.querySelector("[data-modal-open]"),
     closeModalBtn: document.querySelector("[data-modal-close]"),
-    backdrop: document.querySelector("[data-modal]"),
-    modal: document.querySelector(".modal"),
+    modal: document.querySelector("[data-modal]"),
   };
 
   refs.openModalBtn.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
-  refs.backdrop.addEventListener("click", onBackdropClick);
 
   function toggleModal() {
-    refs.backdrop.classList.toggle("is-open");
-  }
-
-  function onBackdropClick(event) {
-    if (event.target === refs.backdrop) {
-      toggleModal();
-    }
+    refs.modal.classList.toggle("is-hidden");
   }
 })();
