@@ -1,13 +1,19 @@
 (() => {
   const openModalBtn = document.querySelector("[data-modal-open]");
   const closeModalBtn = document.querySelector("[data-modal-close]");
-  const modal = document.querySelector("[data-modal]");
+  const backdrop = document.querySelector("[data-modal]");
 
   openModalBtn?.addEventListener("click", () => {
-    modal.classList.remove("is-hidden");
+    backdrop.classList.remove("is-hidden");
   });
 
   closeModalBtn?.addEventListener("click", () => {
-    modal.classList.add("is-hidden");
+    backdrop.classList.add("is-hidden");
+  });
+
+  backdrop?.addEventListener("click", (event) => {
+    if (event.target === backdrop) {
+      backdrop.classList.add("is-hidden");
+    }
   });
 })();
