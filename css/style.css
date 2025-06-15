@@ -1381,3 +1381,66 @@ p {
 .subscribe-icon {
   fill: var(--color-white);
 }
+
+.footer-container {
+  display: flex;
+  align-items: flex-start; /* Вирівнювання по верхньому краю */
+  gap: 80px; /* якщо треба скоригувати відступи */
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 208px; /* або більше, щоб текст “Subscribe” не падав */
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-input {
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--color-white);
+  width: 264px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.subscribe-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 24px;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 4px;
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--color-accent);
+}
+
+.subscribe-icon {
+  fill: var(--color-white);
+}
