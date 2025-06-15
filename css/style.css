@@ -1944,7 +1944,7 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
 
 /* 2. Кнопка Send */
 .modal-submit-btn {
-  background-color: var(--color-light);
+  background-color: #e7e9fc;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
