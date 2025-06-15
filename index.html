@@ -402,6 +402,7 @@
 
     <footer class="footer" id="contacts">
       <div class="container footer-container">
+        <!-- Логотип + опис -->
         <div class="footer-info">
           <a href="./index.html" class="footer-logo">
             Web<span class="footer-logo-accent">Studio</span>
@@ -412,6 +413,7 @@
           </p>
         </div>
 
+        <!-- Соцмережі -->
         <div class="footer-socials">
           <p class="footer-socials-title">Social media</p>
           <ul class="footer-socials-list">
@@ -444,29 +446,32 @@
               </a>
             </li>
           </ul>
+        </div>
 
-          <div class="footer-subscribe">
-            <p class="footer-subscribe-text">Subscribe</p>
-            <form class="subscribe-form">
-              <label class="subscribe-label">
-                <input
-                  class="subscribe-input"
-                  type="email"
-                  name="user-email"
-                  placeholder="E-mail"
-                />
-              </label>
-              <button type="submit" class="subscribe-btn">
-                Subscribe
-                <svg class="subscribe-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-telegram"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+        <!-- Підписка -->
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
+
     <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
