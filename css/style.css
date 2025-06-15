@@ -1444,3 +1444,28 @@ p {
 .subscribe-icon {
   fill: var(--color-white);
 }
+
+.footer-container {
+  display: flex;
+  align-items: flex-start; /* Це вирівнює ВСІ три блоки по верху */
+  gap: 80px;
+}
+
+.footer-info {
+  flex-shrink: 0;
+}
+
+.footer-socials {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-subscribe {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 0; /* ← щоб не було зсуву вниз */
+}
