@@ -1934,3 +1934,62 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
 .modal-submit-btn:focus {
   background-color: #404bbf;
 }
+
+/* 1. Модальне вікно */
+.modal {
+  background-color: #fcfcfc;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* 2. Кнопка Send */
+.modal-submit-btn {
+  background-color: #e7e9fc;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 3. Input поля */
+.form-input {
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 4. Іконки в input */
+.form-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 5. Відступ між блоками */
+.form-field {
+  margin-bottom: 16px;
+}
+
+/* 6. Textarea */
+.form-textarea {
+  font-size: 12px;
+  color: rgba(46, 47, 66, 0.4);
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  resize: none;
+}
+
+/* 7. Checkmark (span, .custom-checkbox) */
+.custom-checkbox {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 8. Fill іконки, коли checkbox активний */
+input[type="checkbox"]:checked
+  + .checkbox-label
+  .custom-checkbox
+  .checkbox-icon {
+  fill: var(--color-bg-light); /* або #F4F4FD */
+}
+
+/* 9. Кнопка — запасний селектор для transition */
+button.modal-submit-btn {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
