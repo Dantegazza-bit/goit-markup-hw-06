@@ -1524,3 +1524,8 @@ p {
 .subscribe-icon {
   margin-left: 16px;
 }
+
+.footer-subscribe-text {
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+}
