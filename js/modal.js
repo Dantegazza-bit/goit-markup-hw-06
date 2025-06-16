@@ -3,17 +3,28 @@
   const closeModalBtn = document.querySelector("[data-modal-close]");
   const backdrop = document.querySelector("[data-modal]");
 
-  openModalBtn?.addEventListener("click", () => {
+  const openModal = () => {
     backdrop.classList.remove("is-hidden");
-  });
+    document.addEventListener("keydown", onEscKeyPress); // 👈 слухаємо Esc
+  };
 
-  closeModalBtn?.addEventListener("click", () => {
+  const closeModal = () => {
     backdrop.classList.add("is-hidden");
-  });
+    document.removeEventListener("keydown", onEscKeyPress); // 👈 очищаємо слухача
+  };
+
+  const onEscKeyPress = (event) => {
+    if (event.key === "Escape") {
+      closeModal();
+    }
+  };
+
+  openModalBtn?.addEventListener("click", openModal);
+  closeModalBtn?.addEventListener("click", closeModal);
 
   backdrop?.addEventListener("click", (event) => {
     if (event.target === backdrop) {
-      backdrop.classList.add("is-hidden");
+      closeModal(); // 👈 клік поза модалкою
     }
   });
 })();
