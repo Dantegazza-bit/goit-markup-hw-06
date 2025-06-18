@@ -1989,11 +1989,6 @@ input[type="checkbox"]:checked
   fill: var(--color-bg-light); /* або #F4F4FD */
 }
 
-/* 9. Кнопка — запасний селектор для transition */
-button.modal-submit-btn {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-submit-btn {
   display: block;
   min-width: 169px;
