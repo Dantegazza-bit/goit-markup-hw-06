@@ -919,7 +919,7 @@ p {
 .modal-submit-btn {
   margin-top: 24px;
   padding: 14px 24px;
-  background-color: var(--color-primary);
+  background-color: #e7e9fc;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -1121,7 +1121,7 @@ p {
   margin-top: 24px;
   padding: 8px 24px;
   align-self: center;
-  background-color: var(--color-primary);
+  background-color: #e7e9fc;
   color: var(--color-white);
   border: none;
   border-radius: 4px;
@@ -1269,7 +1269,7 @@ p {
   height: 56px;
   border: none;
   border-radius: 4px;
-  background-color: var(--color-primary);
+  background-color: #e7e9fc;
   color: var(--color-white);
   font-weight: 500;
   font-size: 16px;
@@ -1727,7 +1727,7 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
   height: 56px;
   border: none;
   border-radius: 4px;
-  background-color: #4d5ae5;
+  background-color: #e7e9fc;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -1919,7 +1919,7 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
-  background-color: #4d5ae5;
+  background-color: #e7e9fc;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
