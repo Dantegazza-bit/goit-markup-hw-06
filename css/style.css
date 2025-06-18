@@ -1995,5 +1995,5 @@ button.modal-submit-btn {
 }
 
 .modal-submit-btn {
-  background-color: #e7e9fc;
+  background-color: #e7e9fc !important;
 }
