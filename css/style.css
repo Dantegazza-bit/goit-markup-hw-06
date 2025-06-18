@@ -1679,24 +1679,6 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
   color: #4d5ae5;
 }
 
-/* === button === */
-.modal-submit-btn {
-  display: block;
-  margin: 0 auto;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  background-color: #e7e9fc;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
   background-color: #404bbf;
@@ -1868,26 +1850,6 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
 .privacy-link {
   color: #4d5ae5;
   text-decoration: underline;
-}
-
-/* send button */
-.modal-submit-btn {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  margin: 0 auto;
-  padding: 16px 32px;
-  border: none;
-  border-radius: 4px;
-  background-color: #e7e9fc;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  transition: background-color 250ms;
 }
 
 .modal-submit-btn:hover,
