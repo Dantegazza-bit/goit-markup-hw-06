@@ -1841,12 +1841,6 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
   transition: background-color 250ms, border 250ms, fill 250ms;
 }
 
-input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
-  background-color: #404bbf;
-  border: none;
-  fill: #fff;
-}
-
 .privacy-link {
   color: #4d5ae5;
   text-decoration: underline;
