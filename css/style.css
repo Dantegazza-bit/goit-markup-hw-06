@@ -1240,7 +1240,7 @@ p {
 
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
-  background-color: var(--color-accent);
+  background-color: #404bbf;
 }
 
 .modal-textarea {
@@ -1366,7 +1366,7 @@ p {
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: var(--color-accent);
+  background-color: #404bbf;
 }
 
 .subscribe-icon {
@@ -1429,7 +1429,7 @@ p {
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: var(--color-accent);
+  background-color: #404bbf;
 }
 
 .subscribe-icon {
