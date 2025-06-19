@@ -1240,7 +1240,7 @@ p {
 
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--color-accent);
 }
 
 .modal-textarea {
@@ -1366,7 +1366,7 @@ p {
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--color-accent);
 }
 
 .subscribe-icon {
@@ -1722,7 +1722,7 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
   position: absolute;
   top: 24px;
   right: 24px;
-  background-color: transparent;
+  background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   width: 24px;
