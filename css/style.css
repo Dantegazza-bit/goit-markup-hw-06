@@ -1818,7 +1818,7 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
 
 /* checkbox */
 .form-checkbox {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .checkbox-label {
