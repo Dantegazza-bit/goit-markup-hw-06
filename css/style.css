@@ -1642,6 +1642,11 @@ p {
   border-color: #4d5ae5;
 }
 
+/* === checkbox === */
+.form-checkbox {
+  margin-bottom: 24px;
+}
+
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
@@ -1813,7 +1818,7 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
 
 /* checkbox */
 .form-checkbox {
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 }
 
 .checkbox-label {
