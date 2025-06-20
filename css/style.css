@@ -1914,6 +1914,6 @@ input[type="checkbox"]:checked
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field:last-of-type {
+.form-field textarea {
   margin-bottom: 16px;
 }
