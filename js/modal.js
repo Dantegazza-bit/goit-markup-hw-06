@@ -7,22 +7,34 @@ document.addEventListener("DOMContentLoaded", () => {
     backdrop: document.querySelector("[data-modal]"),
   };
 
+  console.log("openModalBtn", refs.openModalBtn);
+  console.log("closeModalBtn", refs.closeModalBtn);
+  console.log("backdrop", refs.backdrop);
+
   if (!refs.openModalBtn || !refs.closeModalBtn || !refs.backdrop) {
     console.warn("⚠️ One or more modal elements not found");
     return;
   }
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
-  refs.backdrop.addEventListener("click", onBackdropClick);
+  refs.openModalBtn.addEventListener("click", () => {
+    console.log("👆 CLICKED Order Service");
+    toggleModal();
+  });
 
-  function toggleModal() {
-    refs.backdrop.classList.toggle("is-hidden");
-  }
+  refs.closeModalBtn.addEventListener("click", () => {
+    console.log("❌ CLICKED Close Button");
+    toggleModal();
+  });
 
-  function onBackdropClick(event) {
+  refs.backdrop.addEventListener("click", (event) => {
+    console.log("🖱 CLICKED Backdrop");
     if (event.target === refs.backdrop) {
       toggleModal();
     }
+  });
+
+  function toggleModal() {
+    console.log("🔁 TOGGLE MODAL");
+    refs.backdrop.classList.toggle("is-hidden");
   }
 });
