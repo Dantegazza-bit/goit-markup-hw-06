@@ -18,15 +18,6 @@
   </head>
   <body>
     <header class="page-header">
-      <button
-        class="menu-toggle js-open-menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg class="menu-icon" width="32" height="22">
-          <use href="./images/icons.svg#icon-burger"></use>
-        </svg>
-      </button>
       <div class="container header-container">
         <nav class="page-nav">
           <a href="./index.html" class="header-logo">
@@ -128,7 +119,6 @@
             <li class="team-item">
               <img
                 src="./images/team-mark.jpg"
-                srcset="./images/team/team-mark@2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
               />
@@ -169,17 +159,39 @@
             </li>
 
             <li class="team-item">
-              <img
-                src="./images/team-tom.jpg"
-                srcset="./images/team/team-tom@2x.jpg 2x"
-                alt="Tom Ford"
-                width="264"
-              />
+              <img src="./images/team-tom.jpg" alt="Tom Ford" width="264" />
               <div class="team-description">
                 <h3 class="team-name">Tom Ford</h3>
                 <p class="team-role">Frontend Developer</p>
                 <ul class="socials">
-                  …
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -187,7 +199,6 @@
             <li class="team-item">
               <img
                 src="./images/team-camila.jpg"
-                srcset="./images/team/team-camila@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
               />
@@ -195,7 +206,34 @@
                 <h3 class="team-name">Camila Garcia</h3>
                 <p class="team-role">Marketing</p>
                 <ul class="socials">
-                  …
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -203,7 +241,6 @@
             <li class="team-item">
               <img
                 src="./images/team-daniel.jpg"
-                srcset="./images/team/team-daniel@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
               />
@@ -211,7 +248,34 @@
                 <h3 class="team-name">Daniel Wilson</h3>
                 <p class="team-role">UI Designer</p>
                 <ul class="socials">
-                  …
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a href="#" class="social-link">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -222,116 +286,114 @@
       <section class="portfolio section" id="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
-          <ul class="portfolio-list list">
+          <ul class="portfolio-list">
             <li class="portfolio-item">
-              <a class="portfolio-link link" href="#">
-                <div class="portfolio-thumb">
-                  <img
-                    src="./images/portfolio/portfolio-banking-app.jpg"
-                    srcset="./images/portfolio/portfolio-banking-app@2x.jpg 2x"
-                    alt="Banking App"
-                    width="360"
-                    height="300"
-                  />
-                </div>
-                <div class="portfolio-caption">
-                  <h3 class="portfolio-title">Banking App</h3>
-                  <p class="portfolio-text">App</p>
-                </div>
-              </a>
+              <div class="portfolio-thumb">
+                <img
+                  src="./images/portfolio-banking-app.jpg"
+                  alt="Banking App"
+                  width="360"
+                />
+                <p class="portfolio-overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-description">
+                <h3 class="portfolio-name">Banking App</h3>
+                <p class="portfolio-type">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <a class="portfolio-link link" href="#">
-                <div class="portfolio-thumb">
-                  <img
-                    src="./images/portfolio/portfolio-cashless-payment.jpg"
-                    srcset="
-                      ./images/portfolio/portfolio-cashless-payment@2x.jpg 2x
-                    "
-                    alt="Cashless Payment"
-                    width="360"
-                    height="300"
-                  />
-                </div>
-                <div class="portfolio-caption">
-                  <h3 class="portfolio-title">Cashless Payment</h3>
-                  <p class="portfolio-text">Marketing</p>
-                </div>
-              </a>
+              <div class="portfolio-thumb">
+                <img
+                  src="./images/portfolio-cashless-payment.jpg"
+                  alt="Cashless Payment"
+                  width="360"
+                />
+                <p class="portfolio-overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-description">
+                <h3 class="portfolio-name">Cashless Payment</h3>
+                <p class="portfolio-type">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <a class="portfolio-link link" href="#">
-                <div class="portfolio-thumb">
-                  <img
-                    src="./images/portfolio/portfolio-meditation-app.jpg"
-                    srcset="
-                      ./images/portfolio/portfolio-meditation-app@2x.jpg 2x
-                    "
-                    alt="Meditation App"
-                    width="360"
-                    height="300"
-                  />
-                </div>
-                <div class="portfolio-caption">
-                  <h3 class="portfolio-title">Meditation App</h3>
-                  <p class="portfolio-text">App</p>
-                </div>
-              </a>
+              <div class="portfolio-thumb">
+                <img
+                  src="./images/portfolio-meditation-app.jpg"
+                  alt="Meditation App"
+                  width="360"
+                />
+                <p class="portfolio-overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-description">
+                <h3 class="portfolio-name">Meditation App</h3>
+                <p class="portfolio-type">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <a class="portfolio-link link" href="#">
-                <div class="portfolio-thumb">
-                  <img
-                    src="./images/portfolio/portfolio-online-courses.jpg"
-                    srcset="
-                      ./images/portfolio/portfolio-online-courses@2x.jpg 2x
-                    "
-                    alt="Online Courses"
-                    width="360"
-                    height="300"
-                  />
-                </div>
-                <div class="portfolio-caption">
-                  <h3 class="portfolio-title">Online Courses</h3>
-                  <p class="portfolio-text">Marketing</p>
-                </div>
-              </a>
+              <div class="portfolio-thumb">
+                <img
+                  src="./images/portfolio-taxi-service.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                />
+                <p class="portfolio-overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-description">
+                <h3 class="portfolio-name">Taxi Service</h3>
+                <p class="portfolio-type">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <a class="portfolio-link link" href="#">
-                <div class="portfolio-thumb">
-                  <img
-                    src="./images/portfolio/portfolio-screen-illustrations.jpg"
-                    srcset="
-                      ./images/portfolio/portfolio-screen-illustrations@2x.jpg 2x
-                    "
-                    alt="Screen Illustrations"
-                    width="360"
-                    height="300"
-                  />
-                </div>
-                <div class="portfolio-caption">
-                  <h3 class="portfolio-title">Screen Illustrations</h3>
-                  <p class="portfolio-text">Design</p>
-                </div>
-              </a>
+              <div class="portfolio-thumb">
+                <img
+                  src="./images/portfolio-screen-illustrations.jpg"
+                  alt="Screen Illustrations"
+                  width="360"
+                />
+                <p class="portfolio-overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-description">
+                <h3 class="portfolio-name">Screen Illustrations</h3>
+                <p class="portfolio-type">Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <a class="portfolio-link link" href="#">
-                <div class="portfolio-thumb">
-                  <img
-                    src="./images/portfolio/portfolio-taxi-service.jpg"
-                    srcset="./images/portfolio/portfolio-taxi-service@2x.jpg 2x"
-                    alt="Taxi Service"
-                    width="360"
-                    height="300"
-                  />
-                </div>
-                <div class="portfolio-caption">
-                  <h3 class="portfolio-title">Taxi Service</h3>
-                  <p class="portfolio-text">Marketing</p>
-                </div>
-              </a>
+              <div class="portfolio-thumb">
+                <img
+                  src="./images/portfolio-online-courses.jpg"
+                  alt="Online Courses"
+                  width="360"
+                />
+                <p class="portfolio-overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-description">
+                <h3 class="portfolio-name">Online Courses</h3>
+                <p class="portfolio-type">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
