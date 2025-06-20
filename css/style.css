@@ -1861,6 +1861,10 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
   margin-bottom: 8px;
 }
 
+.form-field-textarea {
+  margin-bottom: 16px;
+}
+
 /* 6. Textarea */
 .form-textarea {
   font-size: 12px;
