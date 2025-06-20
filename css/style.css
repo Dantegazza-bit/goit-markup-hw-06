@@ -1867,7 +1867,7 @@ input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
 
 /* 5. Відступ між блоками */
 .form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 /* 6. Textarea */
