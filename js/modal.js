@@ -1,40 +1,19 @@
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("modal.js loaded");
+(() => {
+  const openModalBtn = document.querySelector("[data-modal-open]");
+  const closeModalBtn = document.querySelector("[data-modal-close]");
+  const backdrop = document.querySelector("[data-modal]");
 
-  const refs = {
-    openModalBtn: document.querySelector("[data-modal-open]"),
-    closeModalBtn: document.querySelector("[data-modal-close]"),
-    backdrop: document.querySelector("[data-modal]"),
-  };
-
-  console.log("openModalBtn", refs.openModalBtn);
-  console.log("closeModalBtn", refs.closeModalBtn);
-  console.log("backdrop", refs.backdrop);
-
-  if (!refs.openModalBtn || !refs.closeModalBtn || !refs.backdrop) {
-    console.warn("⚠️ One or more modal elements not found");
-    return;
-  }
-
-  refs.openModalBtn.addEventListener("click", () => {
-    console.log("👆 CLICKED Order Service");
-    toggleModal();
+  openModalBtn?.addEventListener("click", () => {
+    backdrop.classList.remove("is-hidden");
   });
 
-  refs.closeModalBtn.addEventListener("click", () => {
-    console.log("❌ CLICKED Close Button");
-    toggleModal();
+  closeModalBtn?.addEventListener("click", () => {
+    backdrop.classList.add("is-hidden");
   });
 
-  refs.backdrop.addEventListener("click", (event) => {
-    console.log("🖱 CLICKED Backdrop");
-    if (event.target === refs.backdrop) {
-      toggleModal();
+  backdrop?.addEventListener("click", (event) => {
+    if (event.target === backdrop) {
+      backdrop.classList.add("is-hidden");
     }
   });
-
-  function toggleModal() {
-    console.log("🔁 TOGGLE MODAL");
-    refs.backdrop.classList.toggle("is-hidden");
-  }
-});
+})();
