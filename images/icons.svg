@@ -74,5 +74,8 @@
 <symbol id="icon-check" viewBox="0 0 32 32">
   <path d="M12 21.35l-5.65-5.65-1.41 1.41L12 24.17l15.06-15.06-1.41-1.41z"/>
 </symbol>
+<symbol id="icon-menu-hamburger" viewBox="0 0 32 32">
+  <path d="M4 8h24v2H4zM4 15h24v2H4zM4 22h24v2H4z"></path>
+</symbol>
 </defs>
 </svg>
