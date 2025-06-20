@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   if (!refs.openModalBtn || !refs.closeModalBtn || !refs.backdrop) {
-    console.warn("Some modal elements not found!");
+    console.warn("⚠️ One or more modal elements not found");
     return;
   }
 
