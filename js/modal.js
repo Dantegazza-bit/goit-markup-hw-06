@@ -35,6 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function toggleModal() {
     console.log("🔁 TOGGLE MODAL");
-    refs.backdrop.classList.toggle("is-hidden");
+    refs.backdrop.classList.toggle("is-open");
   }
 });
