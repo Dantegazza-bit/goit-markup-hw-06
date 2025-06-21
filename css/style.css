@@ -1919,3 +1919,7 @@ input[type="checkbox"]:checked
 .mobile-social-link svg {
   fill: var(--color-bg-light);
 }
+
+.no-scroll {
+  overflow: hidden;
+}
