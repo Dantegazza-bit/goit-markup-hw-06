@@ -1923,3 +1923,45 @@ input[type="checkbox"]:checked
 .no-scroll {
   overflow: hidden;
 }
+
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.portfolio-item {
+  flex-basis: calc((100% - 48px) / 3); /* 3 в ряд */
+  background-color: #fff;
+  box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16),
+    0 1px 6px rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+}
+
+/* Планшет */
+@media screen and (max-width: 1157px) {
+  .portfolio-item {
+    flex-basis: calc((100% - 24px) / 2); /* 2 в ряд */
+  }
+}
+
+/* Мобілка */
+@media screen and (max-width: 767px) {
+  .portfolio-item {
+    flex-basis: 100%; /* 1 в ряд */
+  }
+}
