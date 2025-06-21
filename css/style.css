@@ -1923,3 +1923,41 @@ input[type="checkbox"]:checked
 .no-scroll {
   overflow: hidden;
 }
+
+/* --- Mobile styles for subscribe section --- */
+.footer-subscribe form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.footer-subscribe input[type="email"] {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.subscribe-btn {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 0;
+}
+
+/* --- Tablet and Desktop styles --- */
+@media screen and (min-width: 768px) {
+  .footer-subscribe form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-subscribe input[type="email"] {
+    max-width: 264px;
+  }
+
+  .subscribe-btn {
+    width: auto;
+    min-width: 165px;
+  }
+}
