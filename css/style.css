@@ -1961,3 +1961,35 @@ input[type="checkbox"]:checked
     min-width: 165px;
   }
 }
+
+/* Footer: mobile view */
+@media screen and (max-width: 767px) {
+  .footer .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .footer-logo,
+  .footer-social,
+  .footer-subscribe {
+    align-items: center;
+  }
+
+  .footer-subscribe form {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .footer-subscribe input[type="email"] {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .footer-subscribe button {
+    width: 165px;
+  }
+}
