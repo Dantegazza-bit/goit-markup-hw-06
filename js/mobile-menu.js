@@ -9,8 +9,7 @@
     openMenuBtn.setAttribute("aria-expanded", !isMenuOpen);
     mobileMenu.classList.toggle("is-open");
 
-    // Блокуємо прокрутку body при відкритому меню
-    document.body.classList.toggle("no-scroll");
+    document.body.style.overflow = isMenuOpen ? "" : "hidden";
   };
 
   openMenuBtn.addEventListener("click", toggleMenu);
@@ -21,7 +20,7 @@
     if (e.matches) {
       mobileMenu.classList.remove("is-open");
       openMenuBtn.setAttribute("aria-expanded", false);
-      document.body.classList.remove("no-scroll");
+      document.body.style.overflow = "";
     }
   });
 })();
