@@ -1349,3 +1349,10 @@ a {
     display: none;
   }
 }
+
+/* Ховаємо бургер-кнопку на планшеті і десктопі */
+@media screen and (min-width: 768px) {
+  .js-open-menu {
+    display: none;
+  }
+}
