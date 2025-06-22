@@ -1990,3 +1990,43 @@ input[type="checkbox"]:checked
     height: 64px;
   }
 }
+
+/* Загальні стилі: мобілка — зверху вниз */
+.features-list,
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .features-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .features-list .features-item {
+    flex-basis: calc((100% - 24px) / 2); /* 2 колонки */
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .team-list .team-item {
+    flex-basis: calc((100% - 72px) / 4); /* 4 картки в ряд */
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .features-list .features-item {
+    flex-basis: calc((100% - 72px) / 4); /* 4 колонки */
+  }
+}
