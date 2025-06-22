@@ -1331,3 +1331,21 @@ a {
 .mobile-socials-icon {
   fill: #ffffff;
 }
+
+/* Показати бургер на мобілках */
+.js-open-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Сховати бургер на планшетах і десктопах */
+@media screen and (min-width: 768px) {
+  .js-open-menu {
+    display: none;
+  }
+}
