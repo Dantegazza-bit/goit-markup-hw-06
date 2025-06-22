@@ -368,7 +368,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-tab-min.jpg);
+      url(../images/hero-bg.jpg);
     max-width: 800px;
   }
   @media screen and (min-resolution: 2x) {
@@ -377,7 +377,7 @@ a {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-tab@2x-min.jpg);
+        url(../images/hero-bg.jpg);
     }
   }
 }
@@ -387,7 +387,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-desc-min.jpg);
+      url(../images/hero-bg.jpg);
     max-width: 1440px;
   }
   @media screen and (min-resolution: 2x) {
@@ -396,7 +396,7 @@ a {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-desc@2x-min.jpg);
+        url(../images/hero-bg.jpg);
     }
   }
 }
