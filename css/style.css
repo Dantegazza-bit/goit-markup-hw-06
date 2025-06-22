@@ -1948,3 +1948,131 @@ input[type="checkbox"]:checked
   width: 100%;
   max-width: 165px;
 }
+
+.footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: var(--color-dark);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 72px;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.footer-logo-accent {
+  color: var(--color-bg-light);
+}
+
+.footer-text {
+  max-width: 264px;
+  color: var(--color-bg-light);
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+.footer-socials-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-white);
+}
+
+.footer-socials-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-socials-link {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms ease;
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  background-color: var(--color-accent);
+}
+
+.footer-socials-icon {
+  fill: var(--color-bg-light);
+}
+
+.footer-subscribe-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-white);
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.subscribe-input {
+  width: 100%;
+  max-width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  color: var(--color-white);
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.subscribe-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-width: 165px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--color-accent);
+}
+
+.subscribe-icon {
+  fill: var(--color-white);
+}
