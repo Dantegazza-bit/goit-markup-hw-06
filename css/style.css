@@ -1965,3 +1965,41 @@ input[type="checkbox"]:checked
     flex-basis: 100%; /* 1 в ряд */
   }
 }
+
+.hero {
+  padding: 72px 0;
+  background-color: var(--color-dark);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero-bg-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero-title {
+  max-width: 220px;
+  margin: 0 auto 72px;
+  color: var(--color-white);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
