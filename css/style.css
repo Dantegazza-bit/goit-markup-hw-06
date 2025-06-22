@@ -1916,47 +1916,32 @@ input[type="checkbox"]:checked
 
 /* === TABLET & UP === */
 @media screen and (min-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
-
-  .mobile-menu {
-    display: none;
-  }
-
-  .page-header .container {
-    justify-content: space-between;
-  }
-
-  .nav-list {
-    display: flex;
-    gap: 40px;
-  }
-
-  .contact-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .contact-link {
-    font-size: 12px;
-  }
-}
-
-/* === DESKTOP & UP === */
-@media screen and (min-width: 1158px) {
-  .contact-list {
+  .footer-container {
     flex-direction: row;
-    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    text-align: left;
+    gap: 72px 24px;
   }
 
-  .contact-link {
-    font-size: 16px;
+  .footer-info,
+  .footer-socials {
+    margin: 0;
+    width: calc((100% - 24px) / 2);
   }
 
-  .page-header .container {
-    align-items: center;
+  .footer-subscribe {
+    width: 100%;
+    margin-top: 72px;
+  }
+
+  .subscribe-form {
+    justify-content: flex-start;
+  }
+
+  .footer-subscribe-text {
+    text-align: left;
   }
 }
 
@@ -2002,4 +1987,10 @@ input[type="checkbox"]:checked
     margin-left: auto;
     max-width: 453px;
   }
+}
+
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
