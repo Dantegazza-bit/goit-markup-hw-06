@@ -400,10 +400,16 @@ a {
     }
   }
 }
+
 .hero-container {
-  padding: 72px 52px;
   margin: 0 auto;
 }
+
+.hero {
+  padding: 72px 52px;
+}
+
+
 .hero-title {
   display: flex;
   text-align: center;
@@ -625,12 +631,7 @@ a {
 .team-icon-svg {
   fill: #f4f4fd;
 }
-@media screen and (min-width: 768px) {
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 auto;
-  }
+
   .team-list {
     gap: 24px;
     row-gap: 64px;
@@ -784,6 +785,7 @@ a {
 @media screen and (min-width: 1158px) {
   .container {
     min-width: 1158px;
+    padding: 0 15px;
   }
   .portfolio {
     padding: 120px 0;
