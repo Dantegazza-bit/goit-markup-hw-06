@@ -1,3 +1,13 @@
+:root {
+  --color-primary: #4d5ae5;
+  --color-accent: #404bbf;
+  --color-dark: #2e2f42;
+  --color-text: #434455;
+  --color-bg-light: #f4f4fd;
+  --color-white: #ffffff;
+  --color-border: #e7e9fc;
+}
+
 /* === Базові стилі === */
 body {
   font-family: "Roboto", sans-serif;
@@ -30,8 +40,7 @@ p {
 
 /* === Контейнер === */
 .container {
-  max-width: 1158px;
-  width: 100%;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
