@@ -406,9 +406,8 @@ a {
 }
 
 .hero {
-  padding: 72px 52px;
+  padding: 72px 0px;
 }
-
 
 .hero-title {
   display: flex;
@@ -444,9 +443,13 @@ a {
 }
 @media screen and (min-width: 768px) {
   .hero-container {
-    padding: 112px 136px;
     margin: 0 auto;
   }
+
+  .hero {
+    padding: 188px 0;
+  }
+
   .hero-title {
     width: 100%;
     font-size: 56px;
@@ -632,11 +635,11 @@ a {
   fill: #f4f4fd;
 }
 
-  .team-list {
-    gap: 24px;
-    row-gap: 64px;
-  }
+.team-list {
+  gap: 24px;
+  row-gap: 64px;
 }
+
 @media screen and (min-width: 1158px) {
   .team {
     background: #f4f4fd;
