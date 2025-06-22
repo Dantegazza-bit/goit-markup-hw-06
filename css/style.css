@@ -2003,3 +2003,28 @@ input[type="checkbox"]:checked
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* Спочатку — мобільна версія */
+.features-icon {
+  display: none;
+}
+
+/* Десктоп: з 1158px */
+@media screen and (min-width: 1158px) {
+  .features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* або інше значення */
+    height: 100px;
+    background-color: var(--color-bg-light);
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .features-icon svg {
+    fill: var(--color-primary);
+    width: 64px;
+    height: 64px;
+  }
+}
