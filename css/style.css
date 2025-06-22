@@ -2030,3 +2030,10 @@ input[type="checkbox"]:checked
     flex-basis: calc((100% - 72px) / 4); /* 4 колонки */
   }
 }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
